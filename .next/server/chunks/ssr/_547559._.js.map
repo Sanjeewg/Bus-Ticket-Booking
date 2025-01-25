@@ -2,7 +2,7 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Udaya/Desktop/Bus/bud-ticket-booking/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\r\n\r\nexport default function Home() {\r\n  return (\r\n   <>\r\n   <h1>Hello World</h1>\r\n   </>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACC;kBACA,cAAA,8OAAC;sBAAG;;;;;;;AAGP"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Udaya/Desktop/Bus/bud-ticket-booking/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\r\n\r\nexport default function Home() {\r\n  return (\r\n   <>\r\n   <h1>Hello World</h1>\r\n   \r\n   </>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACC;kBACA,cAAA,8OAAC;sBAAG;;;;;;;AAIP"}},
     {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
