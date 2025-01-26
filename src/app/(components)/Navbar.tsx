@@ -1,15 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import ThemeProvider from './ThemeProvider';
+import ThemeProvider from './DarkModeToggle';
 import Button from './Button';
+import DarkModeToggle from './DarkModeToggle';
 
 function Navbar() {
   return (
     <>
-      <div className="flex flex-row gap-5 bg-red-500 py-4 px-2 ">
-        <div>Image</div>
-        <div className='flex flex-row '>
+      <div className="flex flex-row gap-5 bg-red-500 py-5 px-4 justify-between">
+        <div>logo</div>
+        <div className='flex flex-row gap-4'>
           <div>
             <Link href="/">Home</Link>
           </div>
@@ -23,9 +24,9 @@ function Navbar() {
             <Link href="/blog">Blog</Link>
           </div>
         </div>
-        <div className='flex flex-row '>
+        <div className='flex flex-row gap-4'>
           <div>
-            <ThemeProvider/>
+            <DarkModeToggle/>
           </div>
           <div>
             <Button/>
