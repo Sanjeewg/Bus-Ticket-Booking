@@ -1,32 +1,34 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import ThemeProvider from './ThemeProvider';
+import Button from './Button';
 
 function Navbar() {
   return (
     <>
       <div className="flex flex-row gap-5 bg-red-500 py-4 px-2 ">
-        <div></div>
-        <div>
+        <div>Image</div>
+        <div className='flex flex-row '>
           <div>
-            {' '}
-            <Link href="/about">about</Link>
+            <Link href="/">Home</Link>
           </div>
           <div>
-            {' '}
-            <Link href="/contact">contact</Link>
+            <Link href="/about">About</Link>
           </div>
           <div>
-            {' '}
-            <Link href="/blog">blog</Link>
+            <Link href="/contact">Contact</Link>
+          </div>
+          <div>
+            <Link href="/blog">Blog</Link>
           </div>
         </div>
-        <div>
+        <div className='flex flex-row '>
           <div>
-            <button>dark</button>
+            <ThemeProvider/>
           </div>
           <div>
-            <button>login</button>
+            <Button/>
           </div>
         </div>
       </div>
